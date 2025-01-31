@@ -15,8 +15,11 @@
 
 static const char *TAG = "WIFI";
 static int s_retry_num = 0;
-uint8_t wifi_ssid[30] = "CMCC-4Qfy-2.4G";
-uint8_t wifi_passwd[25] = "RDDDD2EX";
+// uint8_t wifi_ssid[30] = "CMCC-4Qfy-2.4G";
+// uint8_t wifi_passwd[25] = "RDDDD2EX";
+
+uint8_t wifi_ssid[30] = "Xiaomi_12B3";
+uint8_t wifi_passwd[25] = "change@#world2023";
 
 // 定义AP信息数组和AP数量
 static uint16_t number = DEFAULT_SCAN_LIST_SIZE;

@@ -1,0 +1,13 @@
+# ESP-IDF 編譯文件
+/build/
+/sdkconfig
+/sdkconfig.old
+
+
+# 二进制文件
+*.bin
+*.elf
+*.map
+
+# 其他临时文件
+.vscode/  # 如果不需要共享 VSCode 配置則保留此行

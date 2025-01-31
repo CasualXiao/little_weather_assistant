@@ -272,7 +272,7 @@ void parse_date(const char *fxDate, parsed_date_t *parsed_date)
 
     timeinfo.tm_mday = parsed_date->day;
     timeinfo.tm_year = parsed_date->year;
-    timeinfo.tm_mon = parsed_date->month;
+    timeinfo.tm_mon = parsed_date->month - 1;
     mktime(&timeinfo); // 重新计算时间结构体以处理月份和年份的进位
 
     char buff[4] = {0};
