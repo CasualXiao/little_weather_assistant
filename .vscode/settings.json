@@ -1,0 +1,8 @@
+{
+    "idf.portWin": "COM9",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-bridge.cfg"
+    ],
+    "C_Cpp.default.compilerPath": "d:\\ESP\\Espressif\\tools\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe"
+}
